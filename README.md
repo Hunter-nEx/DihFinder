@@ -75,14 +75,14 @@ Single file, no external wordlist needed, runs anywhere Python + `aiohttp` + `ri
 ### Install
 
 ```bash
-pip install aiohttp rich
+pip3 install aiohttp rich
 ```
 
 That's it. Clone the repo or just download `dihfinder.py` — it's a single self-contained file with the 1,375-path wordlist embedded.
 
 ```bash
-https://github.com/Hunter-nEx/DihFinder.git
-cd dihfinder
+git clone https://github.com/Hunter-nEx/DihFinder.git
+cd DihFinder
 python3 dihfinder.py --help
 ```
 
